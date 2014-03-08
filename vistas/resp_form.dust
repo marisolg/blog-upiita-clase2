@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- esto es un comentario -->
+<html>
+    <head>
+        <meta charset= "UTF-8"/>
+        <title>Mi página</title>
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+        <link href="imagenes/favicon.ico" rel="shortcut icon"/>
+          <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+      <link href="css/estilos_all.css" rel="stylesheet" media="screen"/>
+       <!--   <link href="css/estilos_lap.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+        <link href="css/estilos_moviles.css" rel="stylesheet" media="screen and (max-width:600px)"/>-->
+    </head>
+    <body>
+        <!-- contenido de la página -->
+       <div id="div_vacio"><!-- div  para el header que esta flotando se coloque encima del div-->
+     	</div>
+       <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        Inicio
+                    </li>
+                    <li>
+                        Productos
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Acerca
+                    </li>
+                </ul>
+            </nav>
+        </header>
+       <section>
+       	<h1>Bienvenido</h1>
+       	<h1> {asunto}</h1>
+       	<h1>Nombre: {nombre}</h1>
+       	<h1>Email: {email}</h1>
+       	<h1>Website: {website}</h1>
+       	<h1>Edad: {edad}</h1>
+       	<h1>comentario: {comentario}</h1>
+       	input value="Enviar" type="submit" />
+       	
+       </section>
+       
+    </body>
+</html>
